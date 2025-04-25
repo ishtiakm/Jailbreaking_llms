@@ -24,7 +24,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 # ---------- LOAD DATA ----------
 try:
-    df = pd.read_csv("data_2/train_filtered.tsv", sep="\t")
+    df = pd.read_csv("training_data/train_filtered.tsv", sep="\t")
     df = df[["vanilla", "completion"]].dropna()
     dataset = Dataset.from_pandas(df)
     logger.info("Data loaded successfully")
