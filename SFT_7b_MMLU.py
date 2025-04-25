@@ -30,8 +30,8 @@ base_model_id = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
 adapter_path = "./deepseek-7b-lora/final" # <<< Path to your saved LoRA adapters
 
 # --- Evaluation Configuration ---
-input_dir = "normal_tasks"  # <<< Directory containing MCQ CSV files (e.g., topic1.csv, topic2.csv)
-output_dir = "normal_results" # <<< Directory to save detailed results
+input_dir = "MMLU"  # <<< Directory containing MCQ CSV files (e.g., topic1.csv, topic2.csv)
+output_dir = "result/regular_tasks" # <<< Directory to save detailed results
 summary_file = os.path.join(output_dir, "task_wise_accuracy_summary_lora.csv") # <<< Path for summary CSV
 batch_size = 4  # <<< Adjust based on your GPU memory
 
