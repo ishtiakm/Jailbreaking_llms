@@ -1,6 +1,7 @@
 # Jailbreaking_llms
 
-There are two datasets folder here: **data** folder contains jailbreaking prompts, and **MMLU** contains mcq questions on regular topics like math, politics, logic, morality etc.\\
+There are two datasets folder here: **data** folder contains jailbreaking prompts, and **MMLU** contains mcq questions on regular topics like math, politics, logic, morality etc.\
+\
 **base_JB.py**\
 it uses the jailbreaking prompts from data/forbidden_question/unique_filtered_questions.csv\
 If you decide to use another dataset, change the location of csv file in the code and the name of column that contains the questions\
