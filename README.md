@@ -1,4 +1,4 @@
-# Jailbreaking_llms \
+# Jailbreaking_llms
 
 There are two datasets folder here: **data** folder contains jailbreaking prompts, and **MMLU** contains mcq questions on regular topics like math, politics, logic, morality etc.\
 **base_JB.py**\
