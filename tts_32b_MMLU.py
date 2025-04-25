@@ -109,8 +109,8 @@ def calculate_mcq_accuracy_with_reflection(model, tokenizer, df, batch_size=1):
 
 # ---------- Runner ----------
 if __name__ == "__main__":
-    input_dir = "test_3"
-    output_dir = "result/normal/tts_model"
+    input_dir = "MMLU"
+    output_dir = "result/regular_tasks"
     summary_file = os.path.join(output_dir, "task_wise_accuracy_summary.csv")
     model_name = "simplescaling/s1.1-3b"
     batch_size = 30
