@@ -108,7 +108,7 @@ def generate_response(model, tokenizer, prompts, batch_size=8, output_csv="jailb
 # ---------- Script entry ----------
 if __name__ == "__main__":
     input_csv = "data/unique_filtered_questions.csv"
-    output_csv = "pm_result/deepseek_1_5B_only result.csv"
+    output_csv = "result/deepseek_1_5B_only_result_PM.csv"
     batch_size = 1
     model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B"
     
