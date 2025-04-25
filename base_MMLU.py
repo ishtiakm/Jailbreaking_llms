@@ -95,8 +95,8 @@ def calculate_mcq_accuracy(model, tokenizer, df, batch_size=1):
 # ------------------ Main Runner ------------------
 
 if __name__ == "__main__":
-    input_dir = "data/test_3"
-    output_dir = "results_new/deepseek_7b"
+    input_dir = "MMLU"
+    output_dir = "result/regular_tasks"
     summary_file = os.path.join(output_dir, "task_wise_accuracy_summary_7b.csv")
     model_name = "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B"
     batch_size = 30
